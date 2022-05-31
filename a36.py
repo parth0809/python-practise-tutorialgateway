@@ -1,0 +1,5 @@
+a= int(input())
+d= int(input())
+c= int(input())
+print(a+d+c)
+print((a+d+c)/3)

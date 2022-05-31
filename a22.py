@@ -1,0 +1,6 @@
+p= float(input('initial principal balance : '))
+r= float(input('interest rate : '))
+n= int(input('no of times interst per time period : '))
+t= int(input('time period : '))
+a= p*((1+(r/(n*100)))**(n*t))
+print(a)
