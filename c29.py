@@ -1,0 +1,13 @@
+n=int(input())
+count=0
+temp=n
+while(temp!=0):
+    count+=1
+    temp=temp//10
+temp=n
+sum=0
+while(temp!=0):
+    sum+=(temp%10)*10**(count-1)
+    count-=1
+    temp=temp//10
+print(sum)
