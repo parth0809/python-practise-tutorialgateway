@@ -1,0 +1,5 @@
+n=(input('string : '))
+z=input('char: ')
+y=input('new char : ')
+n=n.replace(z,y)
+print(n)
